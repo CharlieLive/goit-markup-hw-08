@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--background-theme);
+  color: #ffffff;
+
+  &__adress {
+    margin-top: 20px;
+    font-style: normal;
+  }
+  &__contact {
+    display: flex;
+    color: var(--secondary-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02;
+
+    &:hover {
+      color: var(--brand-color);
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+.footer-social {
+  display: flex;
+  margin-left: 70px;
+  flex-direction: column;
+  width: 206px;
+  height: 80px;
+}

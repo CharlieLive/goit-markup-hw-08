@@ -1,0 +1,39 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+[href] {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,20 @@
+.lorem-ipsum__list {
+  display: flex;
+}
+
+.lorem-ipsum__item {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.lorem-ipsum__icon {
+  width: 70px;
+  height: 70px;
+}
