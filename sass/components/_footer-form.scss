@@ -1,12 +1,10 @@
 
-.footer-newsletter {
-  padding-top: 60px;
-  display: block;
-}
+
 
 .footer-newsletter-form {
   display: flex;
-  margin-left: 70px;
+  align-items: center;
+  // margin-left: 70px;
 
 &__input {
   font-family: "Roboto";
