@@ -1,27 +1,29 @@
-
-
+.footer-newsletter-form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 .footer-newsletter-form {
   display: flex;
   align-items: center;
 
-
-
-&__input {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-style: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  width: 450px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
-  color: #757575;
-  padding: 16px;
-  margin-bottom: 20px;
-  width: 358px;
-}
+  &__input {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-style: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    width: 450px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: #757575;
+    padding: 16px;
+    margin-bottom: 20px;
+    width: 358px;
+  }
 }
 .newsletter-btn {
   font-family: "Roboto";
@@ -37,21 +39,126 @@
   align-items: center;
   letter-spacing: 0.06em;
   margin: auto;
-  margin-top: 30px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-top: 0px;
   cursor: pointer;
-  margin-bottom: 60px;
-  margin-left: 7px;
 
-&__icon {
-  fill: #fff;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 15px;
-  top: 5px;
+  &__icon {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+  }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__input {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-style: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      width: 450px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(0, 0, 0, 0);
+      color: #757575;
+      padding: 16px;
+      margin-bottom: 20px;
+      width: 358px;
+    }
+  }
+  .newsletter-btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    color: #fff;
+    line-height: 1.87;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    cursor: pointer;
+    margin-bottom: 60px;
+
+    &__icon {
+      fill: #fff;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      left: 15px;
+      top: 5px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-newsletter-form {
+    display: flex;
+    align-items: center;
+
+    &__input {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-style: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(0, 0, 0, 0);
+      color: #757575;
+      padding: 16px;
+      width: 358px;
+    }
+  }
+  .newsletter-btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    color: #fff;
+    line-height: 1.87;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    margin-top: 0px;
+    cursor: pointer;
+    margin-left: 7px;
+
+    &__icon {
+      fill: #fff;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      left: 15px;
+      top: 5px;
+    }
+  }
+  .footer-newsletter-form__form {
+    flex-direction: row;
+  }
 }

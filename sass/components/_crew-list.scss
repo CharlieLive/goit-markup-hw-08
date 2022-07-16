@@ -1,35 +1,112 @@
 .crew {
   background: #f5f4fa;
+  margin: auto;
+  max-width: 1200px;
   &__list {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   &__item {
-    margin-right: 30px;
     list-style: none;
   }
   &__card {
     margin: 0;
-    width: 270px;
-    height: 428px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
   }
 
   &__caption {
     font-weight: 500;
-    margin-top: 30px;
-    margin-left: 99px;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
 
   &__name {
-    margin-top: 10px;
-    width: 147px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-family: "Roboto";
     color: var(--secondary-font-color);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .crew {
+    background: #f5f4fa;
+    margin: auto;
+    max-width: 1200px;
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__item {
+      margin-bottom: 30px;
+      list-style: none;
+    }
+    &__card {
+      margin: 0;
+      background: #ffffff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      text-align: center;
+    }
+
+    &__caption {
+      font-weight: 500;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    &__name {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Roboto";
+      color: var(--secondary-font-color);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .crew {
+    background: #f5f4fa;
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    &__item {
+      list-style: none;
+    }
+    &__card {
+      margin: 0;
+      background: #ffffff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      text-align: center;
+    }
+
+    &__caption {
+      font-weight: 500;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    &__name {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Roboto";
+      color: var(--secondary-font-color);
+    }
   }
 }
