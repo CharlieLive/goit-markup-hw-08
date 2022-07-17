@@ -17,14 +17,14 @@
 }
 .footer-logo {
   max-width: 480px;
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 60px;
   text-align: center;
 }
 .footer-social {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   justify-content: center;
 }
 .footer-newsletter {
@@ -99,7 +99,7 @@
   }
   .footer-logo {
     min-width: 280px;
-
+  padding-top: 60px;
     padding-bottom: 60px;
     text-align: start;
   }
