@@ -876,6 +876,7 @@ img {
   max-width: 100%;
 }
 .lorem-ipsum__content {
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   background-color: var(--background-color);
@@ -890,7 +891,7 @@ img {
   position: absolute;
 }
 .lorem-ipsum__text {
-  width: 270px;
+  max-width: 450px;
   margin-top: 30px;
   list-style: none;
 }
@@ -904,9 +905,10 @@ img {
   letter-spacing: 0.03;
   margin-bottom: 10px;
   display: block;
+  text-align: center;
 }
 .lorem-ipsum__paragraph {
-  width: 270px;
+  max-width: 767px;
   height: 120px;
   line-height: 1.5;
   font-size: 14px;
@@ -962,7 +964,7 @@ img {
     display: block;
   }
   .lorem-ipsum__paragraph {
-    width: 270px;
+    max-width: 450px;
     height: 120px;
     line-height: 1.5;
     font-size: 14px;
@@ -1018,6 +1020,7 @@ img {
     letter-spacing: 0.03;
     margin-bottom: 10px;
     display: block;
+    text-align: left;
   }
   .lorem-ipsum__paragraph {
     width: 270px;
