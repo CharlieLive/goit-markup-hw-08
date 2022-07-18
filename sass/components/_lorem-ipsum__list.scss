@@ -5,10 +5,11 @@
     padding-top: 94px;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
   }
 
   &__content {
+width: 100%;
     height: 120px;
     border-radius: 4px;
     background-color: var(--background-color);
@@ -18,9 +19,18 @@
     position: relative;
   }
   &__icon {
-    width: 100%;
+    width: 70px;
     height: 70px;
     position: absolute;
+  }
+
+  &__text {
+    max-width: 450px;
+    margin-top: 30px;
+    list-style: none;
+  }
+  &__text {
+    margin-right: 30px;
   }
 
   &__heading {
@@ -46,7 +56,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .lorem-ipsum {
+  .lorem-ipsum 
+  {
     &__list {
       display: flex;
       padding: 0;
@@ -57,7 +68,11 @@
       flex-wrap: wrap;
     }
 
+    &__item {
+      width: calc(50% - 30px);
+    }
     &__content {
+      width: 100%;
       height: 120px;
       border-radius: 4px;
       background-color: var(--background-color);
@@ -73,6 +88,14 @@
       position: absolute;
     }
 
+    &__text {
+      width: 270px;
+      margin-top: 30px;
+      list-style: none;
+    }
+    &__text:not(:last-child) {
+      margin-right: 30px;
+    }
 
     &__heading {
       font-weight: 700;
@@ -84,7 +107,7 @@
     }
 
     &__paragraph {
-      width: 100%;
+      max-width:450px;
       height: 120px;
       line-height: 1.5;
       font-size: 14px;
@@ -95,7 +118,6 @@
     }
   }
 }
-
 @media screen and (min-width: 1200px) {
   .lorem-ipsum {
     &__list {
@@ -133,6 +155,14 @@
       margin-right: 30px;
     }
 
+    &__text {
+      width: 270px;
+      margin-top: 30px;
+      list-style: none;
+    }
+    &__text:not(:last-child) {
+      margin-right: 30px;
+    }
 
     &__heading {
       font-weight: 700;

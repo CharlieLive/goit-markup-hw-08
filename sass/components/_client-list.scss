@@ -8,7 +8,7 @@
 
 .client__link {
   display: flex;
-  max-width: 210px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -24,7 +24,7 @@
   }
 }
 .client__icon {
-  width: 100%;
+  width: 106px;
   height: 60px;
 }
 
@@ -45,7 +45,7 @@
 
   .client__link {
     display: flex;
-    max-width: 226px;
+    width: 226px;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -61,7 +61,7 @@
     }
   }
   .client__icon {
-    width: 100%;
+    width: 106px;
     height: 60px;
   }
 }
