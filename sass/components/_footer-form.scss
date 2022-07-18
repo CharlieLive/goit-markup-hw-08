@@ -24,6 +24,9 @@
     margin-bottom: 20px;
     width: 100%;
   }
+  &__email {
+    width: 100%;
+  }
 }
 .newsletter-btn {
   font-family: "Roboto";
@@ -76,6 +79,9 @@
       margin-bottom: 20px;
       max-width: 358px;
     }
+    &__email {
+      width: 100%;
+    }
   }
   .newsletter-btn {
     font-family: "Roboto";
@@ -127,6 +133,9 @@
       background-color: rgba(0, 0, 0, 0);
       color: #757575;
       padding: 16px;
+      width: 358px;
+    }
+    &__email {
       width: 358px;
     }
   }
