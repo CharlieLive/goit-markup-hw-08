@@ -408,9 +408,6 @@ img {
   max-width: 100%;
   padding-top: 60px;
 }
-.footer__adress {
-  font-style: normal;
-}
 .footer__contact {
   color: var(--secondary-font-color);
   font-weight: 500;
@@ -427,15 +424,12 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer {
-    background-color: var(--background-theme);
-    color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     padding-top: 0px;
   }
   .footer__adress {
     margin-top: 20px;
-    font-style: normal;
   }
   .footer__contact {
     color: var(--secondary-font-color);
@@ -1884,14 +1878,14 @@ img {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  position: relative;
 }
 .modal-form__label {
   font-size: 12px;
   color: var(--secondary-font-color);
   margin-bottom: 4px;
   margin-top: 10px;
-  width: 100%;
+  width: 80%;
+  position: relative;
 }
 .modal-form__label:focus-within {
   fill: var(--brand-color);
@@ -1903,6 +1897,7 @@ img {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-top: 4px;
 }
 
 .label:required {
@@ -1923,6 +1918,10 @@ img {
   background-color: var(--brand-color);
   border: none;
   background-image: url(../images/checked.svg);
+}
+
+.privacy-container {
+  width: 80%;
 }
 
 .privacy-container__link {
@@ -2084,23 +2083,25 @@ img {
 .modal-form__icon {
   width: 18px;
   height: 18px;
-  position: absolute;
 }
 .modal-form__icon--person {
-  left: 55px;
-  top: 131px;
+  position: absolute;
+  left: 16px;
+  top: 32px;
   width: 12px;
   height: 12px;
 }
 .modal-form__icon--phone {
-  left: 55px;
-  top: 200px;
+  position: absolute;
+  left: 16px;
+  top: 32px;
   width: 12px;
   height: 12px;
 }
 .modal-form__icon--envelope {
-  left: 55px;
-  top: 268px;
+  position: absolute;
+  left: 16px;
+  top: 32px;
   width: 12px;
   height: 12px;
 }

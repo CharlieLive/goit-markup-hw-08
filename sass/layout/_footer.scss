@@ -6,9 +6,7 @@
   max-width: 100%;
   padding-top: 60px;
 
-  &__adress {
-    font-style: normal;
-  }
+
   &__contact {
     color: var(--secondary-font-color);
     font-weight: 500;
@@ -26,15 +24,14 @@
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    background-color: var(--background-theme);
-    color: #ffffff;
+
     font-size: 16px;
     line-height: 1.5;
     padding-top: 0px;
 
     &__adress {
       margin-top: 20px;
-      font-style: normal;
+
     }
     &__contact {
       color: var(--secondary-font-color);
