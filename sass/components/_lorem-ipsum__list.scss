@@ -9,7 +9,7 @@
   }
 
   &__content {
-width: 100%;
+    width: 100%;
     height: 120px;
     border-radius: 4px;
     background-color: var(--background-color);
@@ -56,8 +56,7 @@ width: 100%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .lorem-ipsum 
-  {
+  .lorem-ipsum {
     &__list {
       display: flex;
       padding: 0;
@@ -104,10 +103,11 @@ width: 100%;
       letter-spacing: 0.03;
       margin-bottom: 10px;
       display: block;
+      text-align: start;
     }
 
     &__paragraph {
-      max-width:450px;
+      max-width: 450px;
       height: 120px;
       line-height: 1.5;
       font-size: 14px;
@@ -171,7 +171,7 @@ width: 100%;
       letter-spacing: 0.03;
       margin-bottom: 10px;
       display: block;
-      text-align: left;
+      text-align: start;
     }
 
     &__paragraph {
