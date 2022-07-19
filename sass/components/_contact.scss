@@ -38,8 +38,9 @@ display: none;
 {
    .contact-list {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
     margin-right: 0px;
 
     &__item {
