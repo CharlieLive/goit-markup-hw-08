@@ -43,8 +43,14 @@
 }
 
 .hamburger-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding-top: 48px;
   padding-left: 40px;
+  &__list {
+    flex: 1;
+  }
 }
 
 .js-menu-container.is-open {
@@ -71,9 +77,7 @@
   width: 18px;
   height: 18px;
 }
-.hamburger-content__list {
-  margin-bottom: 302px;
-}
+
 .hamburger-content__link {
   color: var(--black);
 }

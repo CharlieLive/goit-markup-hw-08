@@ -1,3 +1,9 @@
+.footer-newsletter {
+  width: 100%;
+}
+.footer-newsletter-form__label {
+  width: 100%;
+}
 .footer-newsletter-form__form {
   display: flex;
   flex-direction: column;
@@ -110,6 +116,7 @@
 @media screen and (min-width: 1200px) {
   .footer-newsletter {
     align-items: flex-start;
+    width: 565px;
   }
   .footer-newsletter-form {
     display: flex;
@@ -128,6 +135,9 @@
       color: #757575;
       padding: 16px;
       width: 358px;
+    }
+    &__label {
+      width: 358px ;
     }
   }
   .newsletter-btn {
